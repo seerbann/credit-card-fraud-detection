@@ -1,0 +1,10 @@
+# Ignore the data folders except the downloader script
+data/*
+!data/get_data.py
+*.csv
+*.parquet
+
+# Ignore Python virtual environments
+venv/
+__pycache__/
+.ipynb_checkpoints/
